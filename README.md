@@ -1,16 +1,18 @@
 <div align="center">
-	<img (templateeee) src="https://github.com/OPDMC/Template-MCServer/raw/main/%23README/icon.png" width="20%"/>
-    <h1>(templateeee)Template-MCServer <code>v1.0</code></h1>
-	<a (templateeee) href='https://github.com/OPDMC/Template-MCServer'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
-	<a (templateeee) href=''><img src="https://img.shields.io/badge/-Quay.io-ee0000?style=flat&amp;logo=RedHat&amp;logoColor=white" referrerpolicy="no-referrer" alt="Quay.io">
-	<a (templateeee) href=''><img src="https://img.shields.io/badge/-DockerHub-1c90ed?style=flat&amp;logo=Docker&amp;logoColor=white" referrerpolicy="no-referrer" alt="DockerHub"></a></a>
+	<img src="https://github.com/OPDMC/1.19.2-OPDModCreate/raw/main/%23README/icon_320.png" width="20%"/>
+    <h1>1.19.2-OPDModCreate <code>v1.0</code></h1>
+	<a href='https://github.com/OPDMC/1.19.2-OPDModCreate'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
+	<a href='https://quay.io/repository/opdmc/1.19.2-OPDModCreate'><img src="https://img.shields.io/badge/-Quay.io-ee0000?style=flat&amp;logo=RedHat&amp;logoColor=white" referrerpolicy="no-referrer" alt="Quay.io">
+	<a href='https://hub.docker.com/r/opdmc/1.19.2-OPDModCreate'><img src="https://img.shields.io/badge/-DockerHub-1c90ed?style=flat&amp;logo=Docker&amp;logoColor=white" referrerpolicy="no-referrer" alt="DockerHub"></a></a>
     </tr>
 </div>
 
 
-## 1 (templateeee)Description
+## 1 Description
 
-(templateeee)所有以 `(templateeee)` 开头的内容都是模板，需要在使用时替换。Everything starting with `(templateeee)` is a template and needs to be replaced when used.
+这是OPDMC群友自用的Docker化MC机械动力服务器。整合的插件/模组作者在下方的 `3 Reference` 中注明了，请尊重原作者版权。
+
+This is a Dockerized Minecraft server specialized for Create Mod for personal use by OPDMC group members. The authors of the integrated plugins/mods are credited in the `3 Reference` section below. Please respect the original authors' copyrights.
 
 ### 1.1 Update Rule
 
@@ -21,15 +23,15 @@ Version numbers are represented as `vA.B` (eg: `v1.0`, `v1.1`, `v2.0`), where ch
 ## 2 Usage
 
 ```shell
-docker pull (templateeee)opdmc/1.19.4-opdmc
+docker pull opdmc/1.19.2-opdmodcreate
 ```
 
 ```shell
 docker run -d \
-  (templateeee)--name=1.19.4-opdmc \
+  --name=1.19.4-opdmc \
   -p 127.0.0.1:80:25565/tcp \
   -v /path/to/store/data:/minecraft \
-  (templateeee)opdmc/1.19.4-opdmc
+  opdmc/1.19.2-opdmodcreate
 ```
 
 | Parameter                             | Function                                                        |                                  |
@@ -37,11 +39,17 @@ docker run -d \
 | `-p 127.0.0.1:80:25565/tcp`           | Minecraft server port                                           | MC服务器端口                          |
 | `-v /path/to/store/data:/minecraft`   | To store data in local, auto initialize if `start.sh` NOT exist | 服务器文件映射路径, `start.sh` 存在时将不进行初始化 |
 
-## 3 (templateeee)Reference
+## 3 Reference
 
 - **Fabric**
   - https://fabricmc.net/
-
+- **Create-Fabric**
+  - https://github.com/Creators-of-Create/Create
+  - https://www.curseforge.com/minecraft/mc-mods/create-fabric
+- **JourneyMap**
+  - https://github.com/TeamJM/journeymap
+  - https://teamjm.github.io/journeymap-docs/5.8.5/
+  - https://www.curseforge.com/minecraft/mc-mods/journeymap
 
 ## 4 License
 
