@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="https://github.com/OPDMC/1.19.2-OPDModCreate/raw/main/%23README/icon_320.png" width="20%"/>
+	<img src="https://github.com/OPDMC/1.19.2-OPDModCreate/raw/main/docs/%23README/icon_320.png" width="20%"/>
     <h1>1.19.2-OPDModCreate <code>v1.0</code></h1>
 	<a href='https://github.com/OPDMC/1.19.2-OPDModCreate'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
 	<a href='https://quay.io/repository/opdmc/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/-Quay.io-ee0000?style=flat&amp;logo=RedHat&amp;logoColor=white" referrerpolicy="no-referrer" alt="Quay.io">
