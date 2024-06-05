@@ -9,7 +9,6 @@
 	<a href='https://github.com/OPDMC/1.19.2-OPDModCreate'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
 	<a href='https://github.com/OPDMC/1.19.2-OPDModCreate/pkgs/container/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/Ghcr.io-v1.1-555555?labelColor=8957E5&style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="Ghcr.io"></a>
 	<a href='https://hub.docker.com/r/opdmc/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/DockerHub-v1.1-555555?labelColor=1c90ed&style=flat&amp;logo=Docker&amp;logoColor=white" referrerpolicy="no-referrer" alt="DockerHub"></a>
-	<a href='https://quay.io/repository/opdmc/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/Quay.io-v1.1-555555?labelColor=ee0000&style=flat&amp;logo=RedHat&amp;logoColor=white" referrerpolicy="no-referrer" alt="Quay.io"></a>
 
 ![Docker Image Size](https://img.shields.io/docker/image-size/opdmc/1.19.2-opdmodcreate?arch=amd64&label=AMD64&color=006688) ![Docker Image Size](https://img.shields.io/docker/image-size/opdmc/1.19.2-opdmodcreate?arch=arm64&label=ARM64&color=008866)
   </tr>
@@ -35,8 +34,6 @@ Version numbers are represented as `vA.B` (eg: `v1.0`, `v1.1`, `v2.0`), where ch
 docker pull opdmc/1.19.2-opdmodcreate:latest
 # Ghcr.io
 docker pull ghcr.io/opdmc/1.19.2-opdmodcreate:latest
-# Quay.io (Deprecated)
-docker pull quay.io/opdmc/1.19.2-opdmodcreate:v1.1
 ```
 
 ```shell
