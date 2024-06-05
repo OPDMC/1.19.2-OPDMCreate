@@ -1,15 +1,18 @@
 > [!IMPORTANT]
 > By using this project, you acknowledge and agree that the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula) is automatically set to TRUE.
-> 
+>
 > 使用本项目即表示您承认并同意 [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula) 已自动设置为 TRUE。
 
 <div align="center">
 	<img src="https://github.com/OPDMC/1.19.2-OPDModCreate/raw/main/docs/%23README/icon_320.png" width="20%"/>
     <h1>1.19.2-OPDModCreate <code>v1.1</code></h1>
 	<a href='https://github.com/OPDMC/1.19.2-OPDModCreate'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
-	<a href='https://quay.io/repository/opdmc/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/-Quay.io-ee0000?style=flat&amp;logo=RedHat&amp;logoColor=white" referrerpolicy="no-referrer" alt="Quay.io"></a>
-	<a href='https://hub.docker.com/r/opdmc/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/-DockerHub-1c90ed?style=flat&amp;logo=Docker&amp;logoColor=white" referrerpolicy="no-referrer" alt="DockerHub"></a>
-    </tr>
+	<a href='https://github.com/OPDMC/1.19.2-OPDModCreate/pkgs/container/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/Ghcr.io-v1.1-555555?labelColor=8957E5&style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="Ghcr.io"></a>
+	<a href='https://hub.docker.com/r/opdmc/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/DockerHub-v1.1-555555?labelColor=1c90ed&style=flat&amp;logo=Docker&amp;logoColor=white" referrerpolicy="no-referrer" alt="DockerHub"></a>
+	<a href='https://quay.io/repository/opdmc/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/Quay.io-v1.1-555555?labelColor=ee0000&style=flat&amp;logo=RedHat&amp;logoColor=white" referrerpolicy="no-referrer" alt="Quay.io"></a>
+
+![Docker Image Size](https://img.shields.io/docker/image-size/opdmc/1.19.2-opdmodcreate?arch=amd64&label=AMD64&color=006688) ![Docker Image Size](https://img.shields.io/docker/image-size/opdmc/1.19.2-opdmodcreate?arch=arm64&label=ARM64&color=008866)
+  </tr>
 </div>
 
 
@@ -28,12 +31,17 @@ Version numbers are represented as `vA.B` (eg: `v1.0`, `v1.1`, `v2.0`), where ch
 ## 2 Usage
 
 ```shell
-docker pull opdmc/1.19.2-opdmodcreate
+# DockerHub
+docker pull opdmc/1.19.2-opdmodcreate:latest
+# Ghcr.io
+docker pull ghcr.io/opdmc/1.19.2-opdmodcreate:latest
+# Quay.io (Deprecated)
+docker pull quay.io/opdmc/1.19.2-opdmodcreate:v1.1
 ```
 
 ```shell
 docker run -d \
-  --name=1.19.4-opdmc \
+  --name=1.19.2-opdmodcreate \
   -p 127.0.0.1:80:25565/tcp \
   -v /path/to/store/data:/minecraft \
   opdmc/1.19.2-opdmodcreate
@@ -53,6 +61,7 @@ docker run -d \
 - `frpc/frpc.bat` `frpc/frpc.toml` Quick start frpc proxy (快捷启动 frpc 代理)
 - `frpc_sakure.bat` Quick start SakuraFrp proxy (快捷启动樱花 SakuraFrp 代理)
 
+
 ## 3 Reference
 
 - **Fabric**
@@ -60,10 +69,39 @@ docker run -d \
 - **Create-Fabric**
   - https://github.com/Creators-of-Create/Create
   - https://www.curseforge.com/minecraft/mc-mods/create-fabric
-- **JourneyMap**
-  - https://github.com/TeamJM/journeymap
-  - https://teamjm.github.io/journeymap-docs/5.8.5/
-  - https://www.curseforge.com/minecraft/mc-mods/journeymap
+- **AppleSkin**
+  - https://github.com/squeek502/AppleSkin
+  - https://www.curseforge.com/minecraft/mc-mods/appleskin
+- **Controlling**
+  - https://github.com/jaredlll08/Controlling
+  - https://www.curseforge.com/minecraft/mc-mods/controlling
+- **Inventory Profiles Next & libIPN**
+  - https://github.com/blackd/Inventory-Profiles
+  - https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next
+  - https://github.com/blackd/libIPN
+  - https://www.curseforge.com/minecraft/mc-mods/libipn
+- **Iris Shaders**
+  - https://github.com/IrisShaders/Iris
+  - https://www.curseforge.com/minecraft/mc-mods/irisshaders
+- **Jade**
+  - https://github.com/Snownee/Jade
+  - https://www.curseforge.com/minecraft/mc-mods/jade
+- **Just Enough Items (JEI)**
+  - https://github.com/mezz/JustEnoughItems
+  - https://www.curseforge.com/minecraft/mc-mods/jei
+- **Just Enough Resources (JER)**
+  - https://github.com/way2muchnoise/JustEnoughResources
+  - https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer
+- **Mouse Tweaks**
+  - https://github.com/YaLTeR/MouseTweaks
+  - https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
+- **Sodium-Fabric**
+  - https://github.com/CaffeineMC/sodium-fabric
+  - https://www.curseforge.com/minecraft/mc-mods/sodium
+- **World Edit**
+  - https://github.com/enginehub/WorldEdit
+  - https://www.curseforge.com/minecraft/mc-mods/worldedit
+
 
 ## 4 License
 
