@@ -1,0 +1,99 @@
+{
+  "minecraft": {
+    "version": "1.19.2",
+    "modLoaders": [
+      {
+        "id": "fabric-0.15.11",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "1.19.2-OPDModCreate",
+  "version": "",
+  "author": "",
+  "files": [
+    {
+      "projectID": 679177,
+      "fileID": 4574565,
+      "required": true
+    },
+    {
+      "projectID": 308769,
+      "fileID": 5361341,
+      "required": true
+    },
+    {
+      "projectID": 324717,
+      "fileID": 4328558,
+      "required": true
+    },
+    {
+      "projectID": 225608,
+      "fileID": 3922622,
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 4494409,
+      "required": true
+    },
+    {
+      "projectID": 624165,
+      "fileID": 4537370,
+      "required": true
+    },
+    {
+      "projectID": 495267,
+      "fileID": 4591808,
+      "required": true
+    },
+    {
+      "projectID": 306612,
+      "fileID": 4438705,
+      "required": true
+    },
+    {
+      "projectID": 349239,
+      "fileID": 4033215,
+      "required": true
+    },
+    {
+      "projectID": 248787,
+      "fileID": 3927567,
+      "required": true
+    },
+    {
+      "projectID": 60089,
+      "fileID": 3828448,
+      "required": true
+    },
+    {
+      "projectID": 455508,
+      "fileID": 4684966,
+      "required": true
+    },
+    {
+      "projectID": 394468,
+      "fileID": 3957319,
+      "required": true
+    },
+    {
+      "projectID": 250398,
+      "fileID": 4050342,
+      "required": true
+    },
+    {
+      "projectID": 240630,
+      "fileID": 4440345,
+      "required": true
+    },
+    {
+      "projectID": 32274,
+      "fileID": 4532890,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
