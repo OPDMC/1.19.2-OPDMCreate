@@ -6,10 +6,10 @@
 
 <div align="center">
 	<img src="https://github.com/OPDMC/1.19.2-OPDModCreate/raw/main/docs/%23README/icon_320.png" width="20%"/>
-    <h1>1.19.2-OPDModCreate <code>v1.1</code></h1>
+    <h1>1.19.2-OPDModCreate <code>v1.2</code></h1>
 	<a href='https://github.com/OPDMC/1.19.2-OPDModCreate'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
-	<a href='https://github.com/OPDMC/1.19.2-OPDModCreate/pkgs/container/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/Ghcr.io-v1.1-555555?labelColor=8957E5&style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="Ghcr.io"></a>
-	<a href='https://hub.docker.com/r/opdmc/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/DockerHub-v1.1-555555?labelColor=1c90ed&style=flat&amp;logo=Docker&amp;logoColor=white" referrerpolicy="no-referrer" alt="DockerHub"></a>
+	<a href='https://github.com/OPDMC/1.19.2-OPDModCreate/pkgs/container/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/Ghcr.io-v1.2-555555?labelColor=8957E5&style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="Ghcr.io"></a>
+	<a href='https://hub.docker.com/r/opdmc/1.19.2-opdmodcreate'><img src="https://img.shields.io/badge/DockerHub-v1.2-555555?labelColor=1c90ed&style=flat&amp;logo=Docker&amp;logoColor=white" referrerpolicy="no-referrer" alt="DockerHub"></a>
 
 ![Docker Image Size](https://img.shields.io/docker/image-size/opdmc/1.19.2-opdmodcreate?arch=amd64&label=AMD64&color=006688) ![Docker Image Size](https://img.shields.io/docker/image-size/opdmc/1.19.2-opdmodcreate?arch=arm64&label=ARM64&color=008866)
   </tr>
