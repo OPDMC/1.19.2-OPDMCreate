@@ -67,17 +67,19 @@ docker run -d \
 - **Create-Fabric**
   - https://github.com/Creators-of-Create/Create
   - https://www.curseforge.com/minecraft/mc-mods/create-fabric
-- **AppleSkin**
+- **Apple Skin**
   - https://github.com/squeek502/AppleSkin
   - https://www.curseforge.com/minecraft/mc-mods/appleskin
 - **Controlling**
   - https://github.com/jaredlll08/Controlling
   - https://www.curseforge.com/minecraft/mc-mods/controlling
-- **Inventory Profiles Next & libIPN**
+- **Inventory Profiles Next (IPN) & libIPN & Fabric Language Kotlin**
   - https://github.com/blackd/Inventory-Profiles
   - https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next
   - https://github.com/blackd/libIPN
   - https://www.curseforge.com/minecraft/mc-mods/libipn
+  - https://github.com/FabricMC/fabric-language-kotlin
+  - https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin
 - **Iris Shaders**
   - https://github.com/IrisShaders/Iris
   - https://www.curseforge.com/minecraft/mc-mods/irisshaders
@@ -90,6 +92,9 @@ docker run -d \
 - **Just Enough Resources (JER)**
   - https://github.com/way2muchnoise/JustEnoughResources
   - https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer
+- **Journey Map**
+  - https://teamjm.github.io/journeymap-docs/latest/
+  - https://www.curseforge.com/minecraft/mc-mods/journeymap
 - **Mouse Tweaks**
   - https://github.com/YaLTeR/MouseTweaks
   - https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
