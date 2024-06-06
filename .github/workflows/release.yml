@@ -113,8 +113,8 @@ jobs:
       - name: Create temporary directory
         run: mkdir ${{ steps.vars.outputs.temp_dir }}
 
-      - name: Copy minecraft_client to temporary directory
-        run: cp -r minecraft_client ${{ steps.vars.outputs.temp_dir }}/${{ steps.vars.outputs.repo_name }}
+      - name: Copy minecraft_client_versionpack to temporary directory
+        run: cp -r minecraft_client_versionpack ${{ steps.vars.outputs.temp_dir }}/${{ steps.vars.outputs.repo_name }}
 
       - name: Zip the directory
         run: |
