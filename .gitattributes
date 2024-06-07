@@ -1,2 +1,2 @@
 Dockerfile linguist-detectable=true
-*.mcfunction linguist-language=dockerfile
+*.html linguist-detectable=false
